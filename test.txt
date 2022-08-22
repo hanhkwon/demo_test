@@ -1,0 +1,213 @@
+Last login: Mon Aug 22 21:27:19 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+aos-MacBook-Pro:~ marlin$ $ brew install git
+-bash: $: command not found
+aos-MacBook-Pro:~ marlin$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+==> Checking for `sudo` access (which may request your password)...
+Password:
+==> This script will install:
+/usr/local/bin/brew
+/usr/local/share/doc/homebrew
+/usr/local/share/man/man1/brew.1
+/usr/local/share/zsh/site-functions/_brew
+/usr/local/etc/bash_completion.d/brew
+/usr/local/Homebrew
+
+Press RETURN/ENTER to continue or any other key to abort:
+==> /usr/bin/sudo /usr/sbin/chown -R marlin:admin /usr/local/Homebrew
+==> Downloading and installing Homebrew...
+Updating files: 100% (2892/2892), done.
+HEAD is now at 5ca3e8ea3 Merge pull request #13734 from Bo98/gemfile-ruby
+==> Downloading https://ghcr.io/v2/homebrew/portable-ruby/portable-ruby/blobs/sha256:1f50bf80583bd436c9542d4fa5ad47df0ef0f0bea22ae710c4f04c42d7560bca
+######################################################################### 100.0%
+==> Pouring portable-ruby-2.6.8_1.el_capitan.bottle.tar.gz
+Updated 1 tap (homebrew/core).
+==> Installation successful!
+
+==> Homebrew has enabled anonymous aggregate formulae and cask analytics.
+Read the analytics documentation (and how to opt-out) here:
+  https://docs.brew.sh/Analytics
+No analytics data has been sent yet (nor will any be during this install run).
+
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#donations
+
+==> Next steps:
+- Run brew help to get started
+- Further documentation:
+    https://docs.brew.sh
+
+aos-MacBook-Pro:~ marlin$ $ brew install git
+-bash: $: command not found
+aos-MacBook-Pro:~ marlin$ $ brew install git
+-bash: $: command not found
+aos-MacBook-Pro:~ marlin$ $ brew install git
+-bash: $: command not found
+aos-MacBook-Pro:~ marlin$ $ echo "export PATH=/usr/local/git/bin:/usr/local/bin:/usr/local/sbin:$PATH" >> ~/.bash_profile
+-bash: $: command not found
+aos-MacBook-Pro:~ marlin$ unset PATH
+aos-MacBook-Pro:~ marlin$ export PATH=/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin
+aos-MacBook-Pro:~ marlin$ touch ~/.bash_profile
+aos-MacBook-Pro:~ marlin$ open ~/.bash_profile
+aos-MacBook-Pro:~ marlin$ source ~/.bash_profile
+aos-MacBook-Pro:~ marlin$ $ brew install git
+-bash: $: command not found
+aos-MacBook-Pro:~ marlin$ echo "export PATH=/usr/local/git/bin:/usr/local/bin:/usr/local/sbin:$PATH" >> ~/.bash_profile
+aos-MacBook-Pro:~ marlin$ $ brew install git
+-bash: $: command not found
+aos-MacBook-Pro:~ marlin$ $ git --version
+-bash: $: command not found
+aos-MacBook-Pro:~ marlin$ brew install git
+Running `brew update --auto-update`...
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.21
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/blobs/sha256:a025e143fe
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/manifests/10.40
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:0108a261b51c
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/git/manifests/2.37.2
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/git/blobs/sha256:35f1fa27307ecd
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Installing dependencies for git: gettext and pcre2
+==> Installing git dependency: gettext
+==> Pouring gettext--0.21.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/gettext/0.21: 1,953 files, 19.8MB
+==> Installing git dependency: pcre2
+==> Pouring pcre2--10.40.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/pcre2/10.40: 230 files, 6.4MB
+==> Installing git
+==> Pouring git--2.37.2.big_sur.bottle.tar.gz
+==> Caveats
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+==> Summary
+🍺  /usr/local/Cellar/git/2.37.2: 1,561 files, 44.6MB
+==> Running `brew cleanup git`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> git
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+aos-MacBook-Pro:~ marlin$ cat ~/.ssh/id_rsa.pub | clip
+-bash: clip: command not found
+cat: /Users/marlin/.ssh/id_rsa.pub: No such file or directory
+aos-MacBook-Pro:~ marlin$ cat ~/.ssh/id_rsa.pub
+cat: /Users/marlin/.ssh/id_rsa.pub: No such file or directory
+aos-MacBook-Pro:~ marlin$ git --version
+git version 2.30.1 (Apple Git-130)
+aos-MacBook-Pro:~ marlin$ cat ~/.ssh/id_rsa.pub
+cat: /Users/marlin/.ssh/id_rsa.pub: No such file or directory
+aos-MacBook-Pro:~ marlin$ ssh-keygen -t rsa -b 4096 -C "<amycami94@gmail.com>"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/marlin/.ssh/id_rsa): 
+Created directory '/Users/marlin/.ssh'.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /Users/marlin/.ssh/id_rsa.
+Your public key has been saved in /Users/marlin/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:dAPuk91yMyqlOcsoWQHJFnjVpOlHWO6YFxDjtqqhQDs <amycami94@gmail.com>
+The key's randomart image is:
++---[RSA 4096]----+
+|   o.+=++        |
+|  . *. X..       |
+|   o .* * o      |
+|     o.O = o     |
+| .    =.S + =    |
+|. .  ..o = + o   |
+|.E. .o  = .      |
+|...oo  o +       |
+|. .  .. o        |
++----[SHA256]-----+
+aos-MacBook-Pro:~ marlin$ cd ~/.ssh
+aos-MacBook-Pro:.ssh marlin$ ls
+id_rsa		id_rsa.pub
+aos-MacBook-Pro:.ssh marlin$ eval "$(ssh-agent -s)"
+Agent pid 4189
+aos-MacBook-Pro:.ssh marlin$ ssh-add ~/.ssh/id_rsa
+Identity added: /Users/marlin/.ssh/id_rsa (<amycami94@gmail.com>)
+aos-MacBook-Pro:.ssh marlin$ cat ~/.ssh/id_rsa.pub | clip
+-bash: clip: command not found
+aos-MacBook-Pro:.ssh marlin$ cat ~/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC639B6BZKwl933iega7MGXG/0bUPT8ApD4HA4E4zNwTEJ5BXBUqUXa7ZjFEZtfcRUdgpkzNWB1JpEY/93l9V8pTcV989w/FVDlfU7nUaGnRxj5dAnhORh34Fz1pqt+N6E5a8rQbpRh3AvdX9GTMsqZeI2I0LFYtTiV/j9rNvRm+KoqtXXq3KuAkcaXCdo8IW8Y+xg1V9CwBl3gFnNt44TF6d4IQW1qhrL6dOfJovdjZb4LYrp0vo1rYqeIzsSksec82eDt41E1NJIgmGogjhjd5kVtHmefkqXzNXe1QrgY7X8I9uys6Wcz+ZjNntXJt+CQkwum1XuNJ6gbchVlZkQcxtWLRSla15WrZRFyp4gorQCVT5bCHzwan2AUH/Giz/QBp/UVWCoQs1YQOP33nw9vaNRb6Sz6CfVyktQK/ZvrAc7jtDkwoNm2e1c7gvt73909W5EQAn+0qrn6Ln82C21Pib0Ucy0bDNZzBbwsfFfWOJ/772zisyFGB9skr0W30qwwQNJ9KA1Nca/j3p4GVjeJ4lafgFb2xwYNdbbeUyixIsQnT2ySigMzpLTFvhd6LBQEvc+BtpOk+v/9O84v1DNFAvz1X1aHwQchVQLl+E+5vU55ZE4LNYJI9kpq6m7qCdH500nx4DONhVKmP71NAxicUmjAlu+fPlBpOmOilDyZUQ== <amycami94@gmail.com>
+aos-MacBook-Pro:.ssh marlin$ cd Downloads
+-bash: cd: Downloads: No such file or directory
+aos-MacBook-Pro:.ssh marlin$ cd Download
+-bash: cd: Download: No such file or directory
+aos-MacBook-Pro:.ssh marlin$ cd Downloads
+-bash: cd: Downloads: No such file or directory
+aos-MacBook-Pro:.ssh marlin$ cd Downloads
+-bash: cd: Downloads: No such file or directory
+aos-MacBook-Pro:.ssh marlin$ git clone git@github.com:hanhkwon/demo_test.git
+Cloning into 'demo_test'...
+The authenticity of host 'github.com (20.205.243.166)' can't be established.
+ECDSA key fingerprint is SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? no
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+aos-MacBook-Pro:.ssh marlin$ cd ~/Downloads
+aos-MacBook-Pro:Downloads marlin$ git clone git@github.com:hanhkwon/demo_test.git
+Cloning into 'demo_test'...
+The authenticity of host 'github.com (20.205.243.166)' can't be established.
+ECDSA key fingerprint is SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com,20.205.243.166' (ECDSA) to the list of known hosts.
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+aos-MacBook-Pro:Downloads marlin$ cd demo
+-bash: cd: demo: No such file or directory
+aos-MacBook-Pro:Downloads marlin$ cd ~/demo
+-bash: cd: /Users/marlin/demo: No such file or directory
+aos-MacBook-Pro:Downloads marlin$ cd ~/Demo
+-bash: cd: /Users/marlin/Demo: No such file or directory
+aos-MacBook-Pro:Downloads marlin$ cd demo_test
+aos-MacBook-Pro:demo_test marlin$ cat README.md
+# demo_testaos-MacBook-Pro:demo_test marlin$ open README.md
+No application knows how to open file:///Users/marlin/Downloads/demo_test/README.md (Error Domain=NSOSStatusErrorDomain Code=-10814 "kLSApplicationNotFoundErr: E.g. no application claims the file" UserInfo={_LSLine=1479, _LSFunction=runEvaluator}).
+aos-MacBook-Pro:demo_test marlin$ vi test.txt
+
+
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+"test.txt" [New]
